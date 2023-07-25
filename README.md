@@ -7,6 +7,7 @@ cd C:\Users\Arun Ghataora\Documents\GitHub\financialsdb
 ```
 
 #### Checking Status
+- Provides the current status of your GIT repository compared to master
 ```
 git status
 ```
@@ -17,4 +18,18 @@ git status
 git reset --hard origin/master
 ```
 
-###
+#### Checking Out New Branches
+- Typically we name our branches after a corresponding JIRA ticket
+```
+git checkout FR_X
+```
+
+#### Commit From A Branch
+- If you're comfortable with the changes made you can commit and push
+```
+git commit
+git push
+```
+
+#### Once Changes Committed You Will Have To Raise A Pull Request
+- If you're comfortable with the changes made you should then raise a Pull Request via Github.com
