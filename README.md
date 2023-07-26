@@ -32,4 +32,4 @@ git push
 ```
 
 #### Once Changes Committed You Will Have To Raise A Pull Request
-- To have it marge tto the master branch you then raise a pull request via Github.com
+- To finally marge onto the master branch you then raise a pull request via Github.com
