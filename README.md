@@ -21,7 +21,7 @@ git reset --hard origin/master
 #### Checking Out New Branches
 - Typically we name our branches after a corresponding JIRA ticket
 ```
-git checkout FR_X
+git checkout -b ＜new-branch＞
 ```
 
 #### Commit From A Branch
