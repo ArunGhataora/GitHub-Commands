@@ -31,5 +31,26 @@ git commit
 git push
 ```
 
+#### GIT Squashing (For Pull Requests)
+- To get all changes from multiple commits summarised in a single commit message + will update the pull request where changes have been made subsequently to the pull request being made.
+
+- The process is:
+  -- CHECKOUT Main Branch
+  -- PULL New Changes
+  -- MERGE main branch to target branch
+  -- RESET to main branch
+  -- FORCE PUSH branch
+
+Code: 
+  ```
+git checkout prelive
+git pull
+git merge prelive
+git reset prelive
+git push -f
+```
+
 #### Once Changes Committed You Will Have To Raise A Pull Request
 - To finally marge onto the master branch you then raise a pull request via Github.com
+
+
