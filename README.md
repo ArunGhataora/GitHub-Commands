@@ -45,6 +45,7 @@ Code:
   ```
 git checkout prelive
 git pull
+git checkout [your branch]
 git merge prelive
 git reset prelive
 git push -f
