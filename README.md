@@ -51,6 +51,11 @@ git reset prelive
 git push -f
 ```
 
+#### Changing A Branch Name (For Pull Requests)
+```
+branch -m DM-270/EQ-Card-Summary-Dashboard DM-277/EQ-Card-Summary-Dashboard
+```
+
 #### Once Changes Committed You Will Have To Raise A Pull Request
 - To finally marge onto the master branch you then raise a pull request via Github.com
 
